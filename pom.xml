@@ -108,7 +108,7 @@
 	      <url>http://15.206.89.27:9490/repository/vemoapp-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement> -->s
+	</distributionManagement> -->
 	
 	<build>
 		<finalName>maven-web-application</finalName>
