@@ -94,7 +94,7 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
+	<!--<distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -108,7 +108,7 @@
 	      <url>http://15.206.89.27:9490/repository/vemoapp-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>
+	</distributionManagement> -->s
 	
 	<build>
 		<finalName>maven-web-application</finalName>
