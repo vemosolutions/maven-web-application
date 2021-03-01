@@ -12,13 +12,13 @@ node {
         sh "JAVA_HOME=$javaHome $mvnHome/bin/mvn clean package"
     }
     
-    stage('executeSonar'){
+   /* stage('executeSonar'){
         sh "JAVA_HOME=$javaHome $mvnHome/bin/mvn sonar:sonar"
     } 
     
     stage('uploadToNexus'){
         sh "JAVA_HOME=$javaHome $mvnHome/bin/mvn deploy"
-    }
+    } */
     
     stage('deployToAppServer'){
         //cp  "
