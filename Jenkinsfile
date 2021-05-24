@@ -30,7 +30,7 @@ node {
     stage('sendEmail'){
         emailext body: '''From
             Vemo Solutions.
-            Guntur''', subject: 'Build Satus', to: 'pstjayakar@gmail.com,gurumadala@gmail.com'
+            Guntur''', subject: 'Build Satus', to: 'pstjayakar@gmail.com,gurumadala@gmail.com,ravicart01@gmail.com'
     }
     
 }
